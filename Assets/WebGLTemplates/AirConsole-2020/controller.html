@@ -63,7 +63,7 @@
                         break;
                     case "startVoting":
                         // Assume data includes list of players and the ID of the current player
-                        displayVotingOptions();
+                        displayVotingOptions(data.players, data.currentPlayerId);
                         break;
                     case "hideVoting":
                         hideVotingOptions();
